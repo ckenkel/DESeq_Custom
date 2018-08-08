@@ -21,5 +21,5 @@ separated by blank lines one by one. Follow instructions given as comments in th
 4. For more information, please refer to the DESeq vignette https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjYvvS4_N3cAhUKrVQKHbPUC0UQFjAAegQIABAC&url=https%3A%2F%2Fbioconductor.org%2Fpackages%2Fdevel%2Fbioc%2Fvignettes%2FDESeq%2Finst%2Fdoc%2FDESeq.pdf&usg=AOvVaw3-roK2pfeegaDc2fuOarq5
 
 5. Don't forget to cite the orignial authors! Within your R console type the following command: 
-    citation(DESeq)
+    citation("DESeq")
    
