@@ -7,13 +7,10 @@ Short Guide
 -----------
 
 1. Put all this into the same directory:
-	- script: DESeq.R, gomwu_a.pl, gomwu_b.pl, gomwu.functions.R
-	- GO hierarchy file 
-		(version 1.0, http://www.geneontology.org/GO.downloads.ontology.shtml)
+	- script: DESeq.R 
 	- table of gene annotations for your sequences: two-column (gene identifier <tab> gene name), 
-		tab-delimited, one line per gene. 
-	- table of read counts by gene (see tag-based_RNAseq repository for how to generate this file) 
-		values: gene id, continuous measure of significance such as log(fold-change) or
+		tab-delimited, one line per gene. Example given: plob_iso2gene.tab (see annotatingTranscriptomes repository for 		how to generate this file)
+	- table of read counts by gene (see tag-based_RNAseq repository for how to generate this file). Example given: 			allcountsPoritesPatchGmapper.txt
 
 2. Make sure you have R installed. The R part requires additional packages, which 
 you might need to install prior to running this method. Directions are provided in the .R script
